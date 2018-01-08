@@ -4,7 +4,7 @@
   "description": "Turn async functions into sync ones via node event loo[",
   "main": "index.js",
   "scripts": {
-    "build": "cc src/deasync.c -I deps/node -I deps/libuv/include -undefined dynamic_lookup -o build/deasync.node"
+    "build": "cc src/uvrun.c -I deps/node -I deps/libuv/include -undefined dynamic_lookup -o build/uvrun.node"
   },
   "repository": "https://github.com/wtfaremyinitials/deasync-napi.git",
   "author": "Will Franzen",

@@ -1,4 +1,4 @@
-const uvRun = require('./build/deasync.node')
+const uvRun = require('./build/uvrun.node')
 
 function loopWhile(pred) {
     while (true) {

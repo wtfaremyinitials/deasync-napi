@@ -1,6 +1,6 @@
 var done = false;
 
-setTimeout(() => done = true, 1000)
+setTimeout(() => done = true, 5000)
 
 console.log('blocking')
 
